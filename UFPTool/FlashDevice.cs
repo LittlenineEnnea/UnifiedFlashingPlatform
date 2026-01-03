@@ -31,9 +31,9 @@ namespace UFPTool
             string DevicePath = "";
             bool VerifyWrite = false;
             bool ForceSynchronousWrite = false;
-            bool SkipPlatformIDCheck = false;
-            bool SkipSignatureCheck = false;
-            bool SkipHash = false;
+            bool SkipPlatformIDCheck = true;
+            bool SkipSignatureCheck = true;
+            bool SkipHash = true;
 
             for (int i = 1; i < args.Length; i++)
             {
